@@ -57,4 +57,15 @@ Skillpipeは、ブラウザで閲覧するデジタル教科書です。<br>コ�
 ![image](https://user-images.githubusercontent.com/69043643/122667798-a9238b80-d1ef-11eb-92e8-35817bf36eba.png)
 1. ［Start>］をクリックします。
 1. ②で取得したMicrosoftアカウントが表示されていることを確認したら、［Confirm Microsoft Account］をクリックします。
-1. 「Enter Promo code:」にPromo Codeを
+1. 「Enter Promo code:」にPromo Codeを貼り付け、［Claim Promo Code］をクリックします。数分かかります（何もせずにじっとお待ちください）。
+1. Azure Pass スポンサープランの情報入力画面が開くので、どんどん質問にチェックして、［サインアップ］をクリックします。
+ - 電話番号
+ - 姓名
+ - 「サブスクリプション契約、オファーの詳細、プライバシーに関する声明に同意します。」のチェック
+1. このサインアップ エクスペリエンスに満足していますか?の評価をクリックして、［送信］をクリックします。
+1. 最終的には、Azure Portalへ遷移したら、成功です。「サブスクリプション」画面に「Azure Passスポンサープラン」が表示されています。
+![image](https://user-images.githubusercontent.com/69043643/122668192-f274da80-d1f1-11eb-9679-50c924a5116a.png)
+
+'''diff
+ここまで、デジタルテキスト（Skillpipe）、Azure Pass が紐付いたMicrosoftアカウント、ラボ環境をセットアップしました。準備完了です！
+'''
