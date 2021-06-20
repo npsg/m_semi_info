@@ -1,6 +1,8 @@
 # 研修受講の前に
 
 ## 研修全般
+- https://github.com/npsg/m_semi_info/
+- デジタルテキスト（Skillpipe）のコードは届いておりますでしょうか？
 - 研修の間で、ラボ（実習問題のこと）が用意されています。<br>お手持ちのローカル環境もしくはlearnondemandが用意しているラボ環境から実習できます。<br>ラボ環境は、小さな仮想マシンが起動し、ブラウザから操作できるようになっています。講師からも画面を見ながらサポートできます。
 - いずれにしてもMicrosoft Azureへは、研修特典であるAzure Pass（サブスクリプション）を利用してアクセスします。<br>[https://docs.microsoft.com/ja-jp/learn/certifications/mocazurepass](https://docs.microsoft.com/ja-jp/learn/certifications/mocazurepass)
 - Azure Passの使用量に注意します。<br>余分なAzure コンポーネントを実行しないように、ラボの最後にリソースグループを削除します。
