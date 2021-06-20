@@ -63,6 +63,4 @@ Skillpipeは、ブラウザで閲覧するデジタル教科書です。<br>コ�
 1. '''最終的には、Azure Portalへ遷移したら、成功です。「サブスクリプション」画面に「Azure Passスポンサープラン」が表示されています。
 ![image](https://user-images.githubusercontent.com/69043643/122668192-f274da80-d1f1-11eb-9679-50c924a5116a.png)
 
-```diff
 ここまで、デジタルテキスト（Skillpipe）、Azure Pass が紐付いたMicrosoftアカウント、ラボ環境をセットアップしました。準備完了です！
-```
