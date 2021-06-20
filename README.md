@@ -11,9 +11,11 @@
 Skillpipeは、ブラウザで閲覧するデジタル教科書です。<br>コースが終わった後でもアクセスできます。
 1. 事前登録後、noreply@skillpipe.com からメールが届いているはず
 1. https://www.skillpipe.com へアクセス
-2.
-3. Skillpipeのアカウントを作成(Skillpipeのアカウントがない方)
-4. メール内のコードを入力
+1. Skillpipeのアカウントでログイン(Skillpipeのアカウントがない方は「Join now」から新規作成します)
+![image](https://user-images.githubusercontent.com/69043643/122666855-bd18be80-d1ea-11eb-8bc3-1453605cc5d4.png)
+1. ログインしたら、![image](https://user-images.githubusercontent.com/69043643/122666918-0701a480-d1eb-11eb-9b47-26352986c7c9.png)をクリックします。
+1. ［+Add course］ボタンをクリックします。
+1. メール内のコードを入力し、［Redeem License Key］をクリックします。
 - メールがない場合は、ゴミ箱やスパムのメールボックスを確認
 - 見つからない場合は教えて下さい
 
