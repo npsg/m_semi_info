@@ -9,3 +9,9 @@ https://docs.microsoft.com/ja-jp/learn/modules/describe-azure-databricks-delta-l
 https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-azure-data-lake-storage/
 - Azure Stream Analytics を使用したデータ ストリームの処理    
 https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-data-streaming/
+
+
+2. サーバーレスSQLプールを使用してインタラクティブなクエリを実行する   
+
+
+4. 
