@@ -1,3 +1,4 @@
+1. データエンジニアリングワークロードのコンピューティングおよびストレージオプションを確認する
 - Azure Synapse Analytics の 概要  
 https://docs.microsoft.com/ja-jp/learn/modules/introduction-azure-synapse-analytics/
 - Azure Databricks の説明  
