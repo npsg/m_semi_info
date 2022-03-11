@@ -14,7 +14,9 @@ https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-azure-data-lake-s
 https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-data-streaming/
 
 >**参考**: Azure Synapseワークスペースの作成は、以下の演習が参考になります。    
->https://docs.microsoft.com/ja-jp/learn/modules/explore-azure-synapse-analytics/6-exercise-azure-synapse
+>https://docs.microsoft.com/ja-jp/learn/modules/explore-azure-synapse-analytics/6-exercise-azure-synapse    
+>リージョンは US West 2   
+>名前: AdventureWorks 製品　-> AdventureWorksProducts
 
 
 2. サーバーレスSQLプールを使用してインタラクティブなクエリを実行する   
