@@ -48,18 +48,18 @@ https://raw.githubusercontent.com/MicrosoftLearning/dp-090-databricks-ml/master/
 <img width="556" alt="image" src="https://user-images.githubusercontent.com/69043643/157824175-b65635fe-1fd9-4c59-a893-a735ef401acc.png">
 4. 前に作成したクラスターを選択し、[Preview Table]をクリックします。
 <img width="556" alt="image" src="https://user-images.githubusercontent.com/69043643/157824662-f3e6fe8c-3df9-4b4b-82d7-afa64115e8ba.png">
-5. 以下の設定を行います。
-- Table Name: nyc_taxi
-- Create in Database: デフォルト
-- File Type: CSV
-- Column Delimiter: ,
-- First row in header: チェックする
-- Infer schema: チェックする
-- Multi-line: チェックする
-6. 各列のデータ型を確認します。
+5. 以下の設定を行います。<br>  
+- Table Name: nyc_taxi<br>  
+- Create in Database: デフォルト<br>      
+- File Type: CSV<br>
+- Column Delimiter:カンマ<br>     
+- First row in header: チェックする <br>   
+- Infer schema: チェックする <br>    
+- Multi-line: チェックする <br>   
+6. 各列のデータ型を確認します。<br>    
 <img width="1293" alt="image" src="https://user-images.githubusercontent.com/69043643/157824997-93ed11fd-2378-484e-9c66-2a4f8987d640.png">
-7. [Create Table]をクリックします。
-8. 「Detail」タブで表示されます。
+7. [Create Table]をクリックします。<br>    
+8. 「Detail」タブで表示されます。 <br>     
 
 
 
