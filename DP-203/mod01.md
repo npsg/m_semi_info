@@ -10,7 +10,3 @@ https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-azure-data-lake-s
 5. Azure Stream Analytics を使用したデータ ストリームの処理    
 https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-data-streaming/
 
->**参考**: Azure Synapseワークスペースの作成は、以下の演習が参考になります。<br>モジュール01とモジュール02が終わった後に行うと良いでしょう。    
->https://docs.microsoft.com/ja-jp/learn/modules/explore-azure-synapse-analytics/6-exercise-azure-synapse    
-> - リージョンは、「US West 2」を選択すると良いでしょう。   
-> - 名前: 「AdventureWorks 製品」は、「AdventureWorksProducts」に変更するなど、日本語で入力できないところは、適宜、英語にしてください。
