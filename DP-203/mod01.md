@@ -35,4 +35,8 @@ https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-data-streaming/
    - Cluster mode:　Single Node
    - Databricks runtime version: 既定値
    - Node Type: 既定値（Standard_DS3_v2） 
-<img width="774" alt="image" src="https://user-images.githubusercontent.com/69043643/157821957-b5c1e322-461e-49f4-9bbf-f82a72951f09.png">
+<img width="560" alt="image" src="https://user-images.githubusercontent.com/69043643/157821957-b5c1e322-461e-49f4-9bbf-f82a72951f09.png">
+3. 作成中はインジケーターが回転します。緑色の実線に変わるまで待ちます。
+<img width="560" alt="image" src="https://user-images.githubusercontent.com/69043643/157823137-c09f638a-e153-4032-8904-c86b5f58dae3.png">
+
+### データをアップロードする
