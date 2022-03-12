@@ -15,6 +15,7 @@ https://docs.microsoft.com/ja-jp/learn/modules/secure-data-manage-users-azure-sy
 
 ## サーバーレスと専用の選択
 - 専用SQLプール（一般的なDWH）：DWU（データウェアハウスユニット）で課金、CPU・メモリおよび IO の組み合わせ、手動でDWUを調整しなければいけない
-- サーバーレスSQLプール：処理量で課金、クエリの負荷に応じて自動で調整
+- サーバーレスSQLプール：処理量で課金、クエリの負荷に応じて自動で調整   
+
 DWUや処理量以外に、データストレージの課金も加わる。   
 https://azure.microsoft.com/ja-jp/pricing/details/synapse-analytics/#pricing
