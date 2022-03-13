@@ -36,7 +36,7 @@ Skillpipeは、ブラウザで閲覧するデジタル教科書です。<br>コ�
 1. スパムチェックの問題をクリアします（うまく正解できない場合は、InPrivateモードを確認したり、別のブラウザでやってみてください）
 
 ## ③ラボ環境へのアクセス
-1. [https://esi.learnondemand.net/User/Login](https://esi.learnondemand.net/User/Login)にアクセスします。
+1. [https://esi.learnondemand.net/User/Login](https://esi.learnondemand.net/User/Login)にアクセスします。<br>イベントによっては、こちらhttps://cloudweeks.learnondemand.net/    
 1. ［Sign In］をクリックします
 1. 「Microsoft Account」をクリックして、②で作成した新しいMicrosoftアカウントでサインインします
 ![image](https://user-images.githubusercontent.com/69043643/122667123-35cc4a80-d1ec-11eb-995b-0b36a35472f4.png)
