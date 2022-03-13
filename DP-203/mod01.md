@@ -40,7 +40,7 @@ https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-data-streaming/
 <img width="560" alt="image" src="https://user-images.githubusercontent.com/69043643/157823137-c09f638a-e153-4032-8904-c86b5f58dae3.png">
 
 ### データをアップロードする
-1. 以下から教材ファイルをダウンロードします。
+1. 以下から教材ファイルをダウンロードします。      
 https://raw.githubusercontent.com/MicrosoftLearning/dp-090-databricks-ml/master/data/nyc-taxi.csv
 3. 「Data」ページから[Create Table]をクリックします。
 <img width="560" alt="image" src="https://user-images.githubusercontent.com/69043643/157823835-e3d1546a-4806-4a6e-819e-67f54aa2f3d0.png">
