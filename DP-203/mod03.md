@@ -42,6 +42,9 @@ https://docs.microsoft.com/ja-jp/learn/modules/work-dataframes-azure-databricks/
 >「データフレームについて説明する」で登場する「04-Working-With-Dataframes」ワークスペースにある「1.Describe-a-dataframe」〜「4.Exercise: Distinct Articles」を実行してみましょう。
 >演習の解答は「Solutions」サブフォルダー内にあります。
 > - 4.Exercise: Distinct Articlesでは、「<<FILL_IN>>」となっている部分を以下のように置き換えます。
+
+
+Parquet ファイルを読み取り、必要な変換を適用して、レコードの合計数を実行し、すべてのデータが正しく読み込まれたことを確認
 ```python
 from pyspark.sql.types import *
 
@@ -57,6 +60,7 @@ totalArticles = df.count()
 
 print("Distinct Articles: {0:,}".format( totalArticles ))
 ``` 
+おまけとして、データを照合するスキーマを定義してみて、このスキーマを使用するように読み取り操作を更新
 ```python
 from pyspark.sql.types import *
 
