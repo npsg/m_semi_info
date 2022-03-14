@@ -56,3 +56,42 @@ Install-Module -Name SqlServer
 ```powershell
 .\setup-sql.ps1
 ```
+
+## Data Lakeへのコピー
+1. C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\にある「dp-203-setup-Part02.ps1」をメモ帳などで開きます。必要に応じて、情報書き換えて保存します。Synapseワークスペースの内容を参考にします。
+```powershell
+$selectedSub = ""
+$suffix = "（書き換える）"
+$subscriptionId = "（書き換える）"
+$resourceGroupName = "data-engineering-synapse-（書き換える）"
+$workspaceName = "asaworkspace（書き換える）"
+$global:logindomain = "5bb6d01d-4c6a-4b16-9979-24855af65690"
+$global:sqlEndpoint = "asaworkspace（書き換える）.sql.azuresynapse.net"
+$global:sqlUser = "asa.sql.admin"
+$global:synapseToken = ""
+$global:synapseSQLToken = ""
+$global:managementToken = ""
+$global:powerbiToken = ""
+$global:tokenTimes = [ordered]@{
+        Synapse = (Get-Date -Year 1)
+        SynapseSQL = (Get-Date -Year 1)
+        Management = (Get-Date -Year 1)
+        PowerBI = (Get-Date -Year 1)
+}
+```
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/69043643/158268462-6bab68be-337b-47ca-bb23-3acf9ce43343.png">
+
+2. Windows PowerShellで、次のコマンドを実行して実行ポリシーを設定し、ローカルPowerShellスクリプトファイルを実行できるようにします。
+```powershell
+Set-ExecutionPolicy Unrestricted
+```
+
+3. Windows PowerShellでは、次のコマンドを使用して、ディレクトリをオートメーションスクリプトを含むフォルダに変更します。
+```powershell
+cd C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
+```
+
+4. Windows PowerShellで、次のコマンドを入力してセットアップスクリプトを実行します。画面の指示に従って、Azureのサインインを行ったり、データベースパスワードを新規登録します。
+```powershell
+.\dp-203-setup-Part02.ps1
+```
