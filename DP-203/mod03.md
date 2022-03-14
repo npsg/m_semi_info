@@ -6,7 +6,7 @@ https://docs.microsoft.com/ja-jp/learn/modules/describe-azure-databricks/
 https://docs.microsoft.com/ja-jp/learn/modules/read-write-data-azure-databricks/    
 
 >**やってみましょう！** <br>
->「03-Reading-and-writing-data-in-Azure-Databricks」ワークスペースにある「1.Reading Data - CSV」〜「6.Reading Data - Lab」を実行してみましょう。
+>「CSV 形式でデータを読み取る」で登場する「03-Reading-and-writing-data-in-Azure-Databricks」ワークスペースにある「1.Reading Data - CSV」〜「6.Reading Data - Lab」を実行してみましょう。
 >ただし、ユニット「CSV 形式でデータを読み取る-1.Reading Data - CSV」を完了しないと、最後の演習「6.Reading Data - Lab」まで進みません。演習の解答は「Solutions」サブフォルダー内にあります。
 > - 6.Reading Data - Labでは、「testDF = <<FILL_IN>>」となっている部分を以下のように置き換えます。最後は、データフレームになっていることを確認してください。
 ```python
