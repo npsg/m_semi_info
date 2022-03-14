@@ -55,8 +55,13 @@ https://docs.microsoft.com/ja-jp/learn/modules/transform-data-with-dataframes-ap
 > df = spark.read.load('abfss://wwi-02@asadatalake1kp89zr.dfs.core.windows.net/sale-small/Year=2016/Quarter=Q4/Month=12/Day=20161231/sale-small-20161231-snappy.parquet', format='parquet')
 > df.printSchema()
 > ```
-
-
+> - **演習: Synapse の Apache Spark で入れ子構造をフラット化し、配列を分解する**<br>
+> 「Spark ノートブックを開発する」で読み込んだjsonファイルを使います。手順5以降では、以下のimportが必要です。
+> ```python
+> from pyspark.sql.types import *
+> from pyspark.sql.functions import *
+> ```
 
 4. Azure Synapse Analytics で SQL プールと Apache Spark プールを統合する   
-https://docs.microsoft.com/ja-jp/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/
+https://docs.microsoft.com/ja-jp/learn/modules/integrate-sql-apache-spark-pools-azure-synapse-analytics/  
+演習略
