@@ -48,7 +48,7 @@ Set-ExecutionPolicy Unrestricted
 ```powershell
 cd C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
 ```
-3. Windows PowerShellで、次のコマンドを入力してセットアップスクリプトを実行します。画面の指示に従って、Azureのサインインを行ったりします。
+3. Windows PowerShellで、次のコマンドを入力してセットアップスクリプトを実行します。画面の指示に従って、Azureのサインインを行います。また、Synapseワークスペースが入っているリソースグループ名を入力します。
 ```powershell
 .\setup-sql.ps1
 ```
