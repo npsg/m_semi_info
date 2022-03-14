@@ -15,7 +15,7 @@ https://docs.microsoft.com/ja-jp/learn/modules/ingest-data-with-apache-spark-not
 >- 演習: Azure Synapse Analytics で Spark ノートブックを作成する
 >- 演習: Spark ノートブックを開発する
 >- 演習: Spark ノートブックを実行する
->- 演習: Spark ノートブックにデータを読み込む
+>- 演習: Spark ノートブックにデータを読み込む（準備に時間がかかります）
 >    - [ラボファイルのセットアップが必要](lab.md) また、「Data Lakeへのコピー」も行います。
 >    - 「data-engineering-synapse-ランダムな文字列」のリソースグループ内にあるSynapse Analytics ワークスペースからSynapse Studioを起動
 >    - sale-small/Year=2016/Quarter=Q4/Month=12/Day=20161231を選択します。2016年です。右クリックし、新しいノートブックから「DatazFrameに読み込む」をクリックします。 
