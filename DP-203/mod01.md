@@ -17,6 +17,11 @@ https://docs.microsoft.com/ja-jp/learn/modules/introduction-to-data-streaming/
 >2. Databricksワークスペースの作成      
 >以下、ご参照ください。
 
+## Azure Synapse Analyticsのワークスペース
+Azure Synapse Analyticsのワークスペース名でエラーとなる場合は、以下のようにサブスクリプション／リソースプロバイダーの登録が必要です。<br>
+「Synapse」を検索して、[登録]をクリックします。<br>
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/69043643/158083650-1001856a-ffa6-48b4-907c-22158884d067.png">
+
 ## Databricksワークスペースの作成
 ### Azure Databricksワークスペースを展開する
 1. 「Azure Databricks」を検索します。
