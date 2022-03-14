@@ -28,7 +28,7 @@ Set-ExecutionPolicy Unrestricted
 ```powershell
 cd C:\dp-203\data-engineering-ilt-deployment\Allfiles\00\artifacts\environment-setup\automation\
 ```
-7. Windows PowerShellで、次のコマンドを入力してセットアップスクリプトを実行します。画面の指示に従って、Azureのサインインやデータベースパスワードを入力します。
+7. Windows PowerShellで、次のコマンドを入力してセットアップスクリプトを実行します。画面の指示に従って、Azureのサインインを行ったり、データベースパスワードを新規登録します。
 ```powershell
 .\dp-203-setup-Part01.ps1
 ```
