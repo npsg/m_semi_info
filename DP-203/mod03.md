@@ -89,3 +89,10 @@ print("Distinct Articles: {0:,}".format( totalArticles ))
 
 4. Azure DatabricksでDataFramesの高度なメソッドを操作する   
 https://docs.microsoft.com/ja-jp/learn/modules/work-dataframes-advanced-methods-azure-databricks/
+
+>**やってみましょう！** <br>
+>「日付と時刻の操作を実行する」で登場する「07-Dataframe-Advanced-Methods」ワークスペースにある「1.DateTime-Manipulation」〜「3.Exercise-Deduplication-of-Data」を実行してみましょう。
+>最後の演習では、ETL（Extract/Transform/Load,抽出/変換/ロード）を実施します。重複するレコードや大文字・小文字の混在、ハイフンの混在があるため、103,000レコードになっています。
+>この重複を排除し、100,000レコードにした上で、Parquetファイルに書き出します。
+ｓ
+
