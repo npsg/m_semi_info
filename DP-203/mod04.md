@@ -15,7 +15,13 @@ https://docs.microsoft.com/ja-jp/learn/modules/ingest-data-with-apache-spark-not
 >- 演習: Azure Synapse Analytics で Spark ノートブックを作成する
 >- 演習: Spark ノートブックを開発する
 >- 演習: Spark ノートブックを実行する
->- 演習: Spark ノートブックにデータを読み込む（[ラボファイルのセットアップが必要](lab.md))
+>- 演習: Spark ノートブックにデータを読み込む
+>    - [ラボファイルのセットアップが必要](lab.md)
+>    - 「data-engineering-synapse-ランダムな文字列」のリソースグループ内にあるSynapse Analytics ワークスペースからSynapse Studioを起動
+>    - 
+>    
+>    
+
 
 3. Azure Synapse AnalyticsのApache Sparkプールで DataFrameを使用してデータを変換する    
 https://docs.microsoft.com/ja-jp/learn/modules/transform-data-with-dataframes-apache-spark-pools-azure-synapse-analytics/
