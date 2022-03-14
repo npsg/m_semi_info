@@ -30,6 +30,12 @@ testDF = (spark.read
 
 testDF.printSchema()
 ``` 
+
+> **DBFSの中身を見たい？**
+> 1. 設定／管理コンソール／Workspace Settings／Advancedから「DBFS File Browser」をEnabledに変更します。
+> 2. 全体をリロードし、データをクリックすると、「データベーステーブル」と「DBFS」が選択できるようになります。
+
+
 3. Azure Databricks でデータフレームを操作する   
 https://docs.microsoft.com/ja-jp/learn/modules/work-dataframes-azure-databricks/
 4. Azure DatabricksでDataFramesの高度なメソッドを操作する   
