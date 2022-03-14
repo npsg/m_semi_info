@@ -18,6 +18,10 @@ https://docs.microsoft.com/ja-jp/learn/modules/ingest-data-with-apache-spark-not
 >- 演習: Spark ノートブックにデータを読み込む
 >    - [ラボファイルのセットアップが必要](lab.md) また、「Data Lakeへのコピー」も行います。
 >    - 「data-engineering-synapse-ランダムな文字列」のリソースグループ内にあるSynapse Analytics ワークスペースからSynapse Studioを起動
+>    - sale-small/Year=2016/Quarter=Q4/Month=12/Day=20161231を選択します。2016年です。右クリックし、新しいノートブックから「DatazFrameに読み込む」をクリックします。 
+>    - <img width="905" alt="image" src="https://user-images.githubusercontent.com/69043643/158269316-1beaa71f-fbce-4407-84e8-ba2058717075.png">
+
+
 
 
 3. Azure Synapse AnalyticsのApache Sparkプールで DataFrameを使用してデータを変換する    
