@@ -81,6 +81,10 @@ totalArticles = (spark.read
 
 print("Distinct Articles: {0:,}".format( totalArticles ))
 ``` 
+>**やってみましょう！** <br>
+>前の演習で行った「03-Reading-and-writing-data-in-Azure-Databricks」ワークスペースの「6.Reading Data - Lab」を再度開きます。最後のセルでtestDFを操作していることを確認します。        
+>① 変数testDFの件数を求めてください。     
+>② Apache Spark でパフォーマンスを向上させるための 1 つの手法であるキャッシュ機能を使い、①の結果を素早く求めてください。
 
 4. Azure DatabricksでDataFramesの高度なメソッドを操作する   
 https://docs.microsoft.com/ja-jp/learn/modules/work-dataframes-advanced-methods-azure-databricks/
