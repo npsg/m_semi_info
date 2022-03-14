@@ -35,8 +35,48 @@ testDF.printSchema()
 > 1. 設定／管理コンソール／Workspace Settings／Advancedから「DBFS File Browser」をEnabledに変更します。
 > 2. 全体をリロードし、データをクリックすると、「データベーステーブル」と「DBFS」が選択できるようになります。
 
-
 3. Azure Databricks でデータフレームを操作する   
 https://docs.microsoft.com/ja-jp/learn/modules/work-dataframes-azure-databricks/
+
+>**やってみましょう！** <br>
+>「データフレームについて説明する」で登場する「04-Working-With-Dataframes」ワークスペースにある「1.Describe-a-dataframe」〜「4.Exercise: Distinct Articles」を実行してみましょう。
+>演習の解答は「Solutions」サブフォルダー内にあります。
+> - 4.Exercise: Distinct Articlesでは、「<<FILL_IN>>」となっている部分を以下のように置き換えます。
+```python
+from pyspark.sql.types import *
+
+parquetDir = "/mnt/training/wikipedia/pagecounts/staging_parquet_en_only_clean/"
+
+df = (spark
+  .read
+  .parquet(parquetDir)
+  .select("article")
+  .distinct()
+)
+totalArticles = df.count()
+
+print("Distinct Articles: {0:,}".format( totalArticles ))
+``` 
+```python
+from pyspark.sql.types import *
+
+schema = StructType([
+  StructField("project", StringType(), False),
+  StructField("article", StringType(), False),
+  StructField("requests", IntegerType(), False),
+  StructField("bytes_served", LongType(), False)
+])
+
+totalArticles = (spark.read
+  .schema(schema)
+  .parquet(parquetDir)
+  .select("article")
+  .distinct()
+  .count()
+)
+
+print("Distinct Articles: {0:,}".format( totalArticles ))
+``` 
+
 4. Azure DatabricksでDataFramesの高度なメソッドを操作する   
 https://docs.microsoft.com/ja-jp/learn/modules/work-dataframes-advanced-methods-azure-databricks/
