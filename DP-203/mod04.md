@@ -10,9 +10,10 @@ https://docs.microsoft.com/ja-jp/learn/modules/understand-big-data-engineering-w
 2. Azure Synapse AnalyticsでApache Sparkノートブックを使用してデータを取り込む    
 https://docs.microsoft.com/ja-jp/learn/modules/ingest-data-with-apache-spark-notebooks-azure-synapse-analytics/
 
-演習: Azure Synapse Analytics で Spark ノートブックを作成する
-演習: Spark ノートブックを開発する
-演習: Spark ノートブックを実行する
+- 演習: Azure Synapse Analytics で Spark ノートブックを作成する
+- 演習: Spark ノートブックを開発する
+- 演習: Spark ノートブックを実行する
+- 演習: Spark ノートブックにデータを読み込む（[ラボファイルのセットアップが必要](lab.md))
 
 3. Azure Synapse AnalyticsのApache Sparkプールで DataFrameを使用してデータを変換する    
 https://docs.microsoft.com/ja-jp/learn/modules/transform-data-with-dataframes-apache-spark-pools-azure-synapse-analytics/
