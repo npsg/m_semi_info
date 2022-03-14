@@ -93,5 +93,66 @@ https://docs.microsoft.com/ja-jp/learn/modules/work-dataframes-advanced-methods-
 >**やってみましょう！** <br>
 >「日付と時刻の操作を実行する」で登場する「07-Dataframe-Advanced-Methods」ワークスペースにある「1.DateTime-Manipulation」〜「3.Exercise-Deduplication-of-Data」を実行してみましょう。
 >最後の演習では、ETL（Extract/Transform/Load,抽出/変換/ロード）を実施します。重複するレコードや大文字・小文字の混在、ハイフンの混在があるため、103,000レコードになっています。
->この重複を排除し、100,000レコードにした上で、Parquetファイルに書き出します。
+>この重複を排除し、100,000レコードにした上で、Parquetファイルに書き出します。以下を参考にセルの結果を確認しながら、実行するようにしましょう。
+```python
+# 入力データのパスと出力先を指定します。
+# すでに出力先が存在すれば、削除します。
+sourceFile = "dbfs:/mnt/training/dataframes/people-with-dups.txt"
+destFile = userhome + "/people.parquet"
+dbutils.fs.rm(destFile, True)
+# 指定されたファイルの最大バイト数を返す
+print(dbutils.fs.head(sourceFile))
+```
+```python
+# Sparkでは、データを「パーティション」という単位で並列処理します。HDFSから読み出したブロック数がパーティション数です。
+# groupByやjoinなどの処理は、パーティション間のデータ交換が生じます（シャッフル処理）。
+# spark.sql.shuffle.partitions= Shuffle Stage Input Size / Target Size(100MB~200MB)
+spark.conf.set("spark.sql.shuffle.partitions", 8)
+# CSVファイル読み込み
+df = (spark
+    .read
+    .option("header", "true")
+    .option("inferSchema", "true")
+    .option("sep", ":")
+    .csv(sourceFile)
+)
 
+from pyspark.sql.functions import *
+# 解答の一部を修正、dropDuplicatesで重複した行を取り除けばいい、
+# "lcFirstName", "lcMiddleName", "lcLastName", "ssnNums"は変換後の正しい列だからdropしなくてよい。
+dedupedDF = (df
+  .select(col("*"),
+      lower(col("firstName")).alias("lcFirstName"),
+      lower(col("lastName")).alias("lcLastName"),
+      lower(col("middleName")).alias("lcMiddleName"),
+      # translate(col("ssn"), "-", "").alias("ssnNums")
+      # regexp_replace(col("ssn"), "-", "").alias("ssnNums")
+      regexp_replace(col("ssn"), """^(\d{3})(\d{2})(\d{4})$""", "$1-$2-$3").alias("ssnNums")
+   )
+  .dropDuplicates(["lcFirstName", "lcMiddleName", "lcLastName", "ssnNums", "gender", "birthDate", "salary"])
+  #.drop("lcFirstName", "lcMiddleName", "lcLastName", "ssnNums")
+)
+dedupedDF.show()
+```
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/69043643/158163795-aef7dc69-e5f9-49b7-805c-05240665e503.png">
+
+```python   
+(dedupedDF.write
+   .mode("overwrite")
+   .option("compression", "snappy")
+   .parquet(destFile)
+)
+dedupedDF = spark.read.parquet(destFile)
+print("Total Records: {0:,}".format( dedupedDF.count() ))
+display( dbutils.fs.ls(destFile) )
+```
+
+```python
+finalDF = spark.read.parquet(destFile)
+finalCount = finalDF.count()
+
+clearYourResults()
+validateYourAnswer("01 Expected 100000 Records", 972882115, finalCount)
+summarizeYourResults()
+```
+<img width="682" alt="image" src="https://user-images.githubusercontent.com/69043643/158163929-bc56b5d3-bdbc-4f50-82cb-fb75c24dda3d.png">
