@@ -7,5 +7,5 @@ https://docs.microsoft.com/ja-jp/learn/modules/data-integration-azure-data-facto
 
 
 
-3. コードを書かずに Azure Data Factory または Azure Synapse パイプラインを使用して大規模な変換を実行する   
+2. コードを書かずに Azure Data Factory または Azure Synapse パイプラインを使用して大規模な変換を実行する   
 https://docs.microsoft.com/ja-jp/learn/modules/code-free-transformation-scale/
