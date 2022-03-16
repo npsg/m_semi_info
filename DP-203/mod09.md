@@ -6,12 +6,17 @@ https://docs.microsoft.com/ja-jp/learn/modules/design-hybrid-transactional-analy
 https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/  
 
 >**やってみましょう！** <br>
-> Azure Cosmos DB SQL (Core) API アカウントで Synapse Link を有効にする   
+> - Azure Cosmos DB SQL (Core) API アカウントで Synapse Link を有効にする   
 > [ラボファイルのセットアップが必要](lab.md)    
 > https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/2-enable-cosmos-db-account-to-use    
-> 分析ストアが有効なコンテナーを作成する      
+> - 分析ストアが有効なコンテナーを作成する      
 > https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/3-create-analytical-store-enabled-container    
-> ※下記、「分析ストアが有効なコンテナーを作成する」を参照してください。
+> ※下記、「分析ストアが有効なコンテナーを作成する」を参照してください。       
+> - Cosmos DB 用に Synapse Link を実装する       
+> https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/4-implement-synapse-link     
+> ※登録したリンクが表示されない時には、１度Synapse Studioを閉じて、再度開いてみてください。      
+> - Spark からの接続を検証する
+> https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/5-create-resources
 
 3. Azure Synapse Analytics で Apache Spark を使用して Azure Cosmos DB に対してクエリを実行する    
 https://docs.microsoft.com/ja-jp/learn/modules/query-azure-cosmos-db-with-apache-spark-for-azure-synapse-analytics/   
