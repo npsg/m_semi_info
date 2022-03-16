@@ -19,7 +19,7 @@ https://docs.microsoft.com/ja-jp/learn/modules/query-azure-cosmos-db-with-apache
 https://docs.microsoft.com/ja-jp/learn/modules/query-azure-cosmos-db-with-sql-serverless-for-azure-synapse-analytics/   
 
 ## 分析ストアが有効なコンテナーを作成する
-サンプルデータは以下を利用してください。    
+- サンプルデータは以下を利用してください。    
 ```json
 {
     "customerId": 101,
@@ -46,9 +46,15 @@ https://docs.microsoft.com/ja-jp/learn/modules/query-azure-cosmos-db-with-sql-se
     ]
 }
 ```
-また、「7.次のようにして、このデータに対してクイック クエリを実行し、特定の顧客の顧客プロファイルと販売注文情報を取得してみましょう。…」の部分では、以下のコードを実行してください。
+- また、「7.次のようにして、このデータに対してクイック クエリを実行し、特定の顧客の顧客プロファイルと販売注文情報を取得してみましょう。…」の部分では、以下のコードを実行してください。
 ```sql
 SELECT * FROM c WHERE c.customerId = 101
 ```
-![image](https://user-images.githubusercontent.com/69043643/158559887-c45d2b9e-5e22-427a-ba2e-8650bd062fa0.png)
+![image](https://user-images.githubusercontent.com/69043643/158559887-c45d2b9e-5e22-427a-ba2e-8650bd062fa0.png)     
+
+- 「a. 「New Shell」(新しいシェル) をクリックします (A)」の部分では、以下のように入力してください。
+```PowerShell
+show collection
+db.Sales.find({customerId:122})
+```
 
