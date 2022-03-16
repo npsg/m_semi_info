@@ -7,9 +7,9 @@ https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with
 
 >**やってみましょう！** <br>
 > Azure Cosmos DB SQL (Core) API アカウントで Synapse Link を有効にする   
-> [ラボファイルのセットアップが必要](lab.md)
-> https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/2-enable-cosmos-db-account-to-use
-> 分析ストアが有効なコンテナーを作成する   
+> [ラボファイルのセットアップが必要](lab.md)    
+> https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/2-enable-cosmos-db-account-to-use    
+> 分析ストアが有効なコンテナーを作成する      
 > https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/3-create-analytical-store-enabled-container
 
 3. Azure Synapse Analytics で Apache Spark を使用して Azure Cosmos DB に対してクエリを実行する    
