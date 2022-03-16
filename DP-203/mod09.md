@@ -15,8 +15,10 @@ https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with
 > - Cosmos DB 用に Synapse Link を実装する       
 > https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/4-implement-synapse-link     
 > ※登録したリンクが表示されない時には、１度Synapse Studioを閉じて、再度開いてみてください。      
-> - Spark からの接続を検証する
+> - Spark からの接続を検証する        
 > https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/5-create-resources
+> - SQL サーバーレスからの接続を検証する        
+> https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/6-validate-connectivity
 
 3. Azure Synapse Analytics で Apache Spark を使用して Azure Cosmos DB に対してクエリを実行する    
 https://docs.microsoft.com/ja-jp/learn/modules/query-azure-cosmos-db-with-apache-spark-for-azure-synapse-analytics/   
