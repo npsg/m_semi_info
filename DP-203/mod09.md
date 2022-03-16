@@ -19,6 +19,7 @@ https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with
 > https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/5-create-resources
 > - SQL サーバーレスからの接続を検証する        
 > https://docs.microsoft.com/ja-jp/learn/modules/configure-azure-synapse-link-with-azure-cosmos-db/6-validate-connectivity
+> 下記、「OPENROWSETの利用」を参照してください。私はこちらで接続できました。
 
 3. Azure Synapse Analytics で Apache Spark を使用して Azure Cosmos DB に対してクエリを実行する    
 https://docs.microsoft.com/ja-jp/learn/modules/query-azure-cosmos-db-with-apache-spark-for-azure-synapse-analytics/   
@@ -66,3 +67,20 @@ db.Sales.find({customerId:122})
 ```
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/69043643/158561903-42624c90-bf0c-43d7-b83b-9d6f96a73266.png">
 
+## OPENROWSET
+接続できないときには、下記に置き換えてみてください。      
+```sql
+SELECT TOP 100 *
+FROM OPENROWSET( 
+       'CosmosDB',
+       'Account=<DBアカウント>;Database=<DB名>;Key=<プライマリキー>',
+       Sales) as documents
+```
+```sql
+-- 例
+SELECT TOP 100 *
+FROM OPENROWSET( 
+       'CosmosDB',
+       'Account=asacosmosdb1kp89zr;Database=AdventureWorks5;Key=<プライマリキー>',
+       Sales) as documents
+```
