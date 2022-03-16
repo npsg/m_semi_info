@@ -50,11 +50,12 @@ https://docs.microsoft.com/ja-jp/learn/modules/query-azure-cosmos-db-with-sql-se
 ```sql
 SELECT * FROM c WHERE c.customerId = 101
 ```
-![image](https://user-images.githubusercontent.com/69043643/158559887-c45d2b9e-5e22-427a-ba2e-8650bd062fa0.png)     
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/69043643/158559887-c45d2b9e-5e22-427a-ba2e-8650bd062fa0.png">
 
 - 「a. 「New Shell」(新しいシェル) をクリックします (A)」の部分では、以下のように入力してください。
 ```PowerShell
 show collection
 db.Sales.find({customerId:122})
 ```
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/69043643/158561903-42624c90-bf0c-43d7-b83b-9d6f96a73266.png">
 
