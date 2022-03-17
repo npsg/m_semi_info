@@ -30,7 +30,7 @@ https://[Event Hub名前空間].servicebus.windows.net/[イベントハブ名]/m
 Authorization:[上記PowerShellで生成されたトークン]    
 Content-Type:application/json 
 - Talend API Tester - Free Edition    
-https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?hl=ja    
+https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm?hl=ja    <br><br>
 ![image](https://user-images.githubusercontent.com/69043643/158722081-de69e62d-f908-4dcf-bba9-7f4159472b74.png)
 
-https://docs.microsoft.com/ja-jp/learn/modules/transform-data-with-azure-stream-analytics/    
+   
